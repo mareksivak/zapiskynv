@@ -1,0 +1,90 @@
+@font-face {
+font-family: Brandon;
+src: url(brandon/Brandon_bld.otf);
+}
+
+@font-face {
+font-family: Mono;
+src: url(mono/texgyrecursor-bold.otf);
+}
+
+body
+{
+	background:#f7ebd3;
+	color:#5c574d;
+	font-family:Brandon;
+	font-size:15px;
+}
+
+br
+{
+	line-height:1.8;
+}
+
+h1, .subheading, .motto
+{
+	font-weight:normal;
+	margin-left:251px;
+	padding:0;
+}
+
+h1
+{
+	font-size:36px;
+	margin-top:150px;
+	margin-bottom:5px;
+}
+.subheading
+{
+	text-transform:uppercase;
+	margin-bottom:180px;
+}
+
+.motto
+{
+	font-size:22px;
+}
+
+.motto .author
+{
+	display:block;
+	padding-top:5px;
+}
+
+.content
+{
+	width:660px;
+	margin:0 auto;
+}
+
+.memos
+{
+	margin-bottom:200px;
+}
+
+.memos .date
+{
+	border-top:2px solid #5c574d;
+	padding-top:10px;
+	margin-top:50px;
+}
+
+.memos p
+{
+	font-family:'Mono','Courier New', Courier;
+	font-size:16px;
+	font-weight:400;
+	color:#333;
+	margin-left:251px;
+	margin-top:0px;
+	line-height:1.4;
+}
+
+.photo
+{
+	background:#fff;
+	padding:10px;
+	margin:20px 0;
+    
+    max-width:420px;
+}

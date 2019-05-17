@@ -1,0 +1,141 @@
+@font-face {
+font-family: Brandon;
+src: url(brandon/Brandon_bld.otf);
+}
+
+@font-face {
+font-family: Mono;
+src: url(mono/texgyrecursor-bold.otf);
+}
+
+:root {
+    box-sizing: border-box;
+    font: 16px/1.5sans-serif;
+}
+
+body
+{
+	font-family:Brandon;
+}
+
+br
+{
+	line-height:1.8;
+}
+
+h1, .subheading, .motto
+{
+	font-weight:normal;
+	padding:0;
+}
+
+h1
+{
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+.subheading
+{
+	text-transform:uppercase;
+	margin-bottom: 6rem;
+}
+
+.motto
+{
+	font-size: 1.5rem;
+}
+
+.motto .author
+{
+	display:block;
+	padding-top: 0.5rem;
+}
+
+.navigation
+{
+    margin-top: 6rem;
+}
+
+.subnavigation
+{
+    margin-top: 1rem;
+}
+
+.navigation--item, .subnavigation--item
+{
+    font-size: 1rem;
+    padding: .05rem .5rem;
+    color: #969696;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    font-family: Mono;
+    font-weight: 700;
+}
+
+.subnavigation--item {
+ border-bottom: none;  
+}
+
+.navigation--item.active
+{
+    background: none;
+    color:#cc2402;
+    border: none;
+}
+
+.navigation--item:hover, .subnavigation--item:hover
+{
+    color: #555;
+    background: #ccc;
+    border-color: #b8d1f8;
+    transition: background 0.2s ease-in;
+}
+
+.navigation--item.active:hover
+{
+    background: none;
+    border-color: none;
+    color:#5c574d;
+}
+
+.content
+{
+	margin:0 auto;
+    padding: 0 1rem;
+}
+
+.memos
+{
+	margin-bottom: 15rem;
+}
+
+.memos .date
+{
+	border-top:2px solid #cc2402;
+	padding-top: 0.75em;
+	margin-top: 3rem;
+}
+
+.memos p
+{
+	font-family:'Mono','Courier New', Courier;
+	font-size: 1rem;
+	font-weight:400;
+	color:#cc2402;
+	margin-top:0px;
+	line-height:1.5;
+}
+
+.photo
+{
+	background:#fff;
+	padding: 5px;
+	margin: 1rem 0;
+    
+    max-width: 100%;
+}
+
+.footer
+{
+    margin-bottom: 6rem;
+}

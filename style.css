@@ -1,0 +1,409 @@
+
+html
+{
+	font-size: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4em;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+strong, h2, h3, button {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700 !important;
+	margin:0;
+}
+
+a {
+	text-decoration: none;
+	transition: all .08s linear;
+	-o-transition: all .08s linear;
+	-moz-transition: all .08s linear;
+	-webkit-transition: all .08s linear;
+}
+
+ul
+{
+	list-style:none;
+}
+
+a:link, a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+header.mmu {
+	position: fixed;
+	top: 30px;
+	width: 100%;
+	z-index: 999;
+	text-align: right;
+	pointer-events: none;
+	display: block;
+}
+
+
+header.mmu #logo {
+	position: absolute;
+
+	top: 21px;
+	left: 40px;
+}
+
+header.mmu #logo>a {
+	display: block;
+	
+}
+#logo a
+{
+	text-transform:uppercase;
+	
+	background:#ae2a61;
+	font-size:1.4em;
+	padding:0.3em;
+}
+
+
+header.mmu #logo img {
+	display: none;
+}
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+}
+
+header.mmu nav>ul {
+	display: inline-block;
+	margin: 29px 100px 21px 140px;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+header.mmu nav>ul>li {
+	display: inline-block;
+	height: 30px;
+	font-size: 15px;
+	margin-right: 20px;
+	color: #6e6e6e;
+	line-height: normal;
+}
+
+.responsive {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	min-width: 480px;
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header.mmu .responsive {
+	min-height: 80px;
+	background-color: #333333;
+	border-radius: 5px;
+	pointer-events: all;
+}
+
+header.mmu nav>ul>li.active>a {
+color: #ffffff;
+text-decoration: none;
+border-bottom: 2px solid #9c48d2;
+}
+
+/* */
+
+#below-the-fold {
+position: absolute;
+top: 100%;
+width: 100%;
+}
+
+#timeline {
+height:24000px;
+background-color: #7B5579;
+background-image:url('img/pattern2.png');
+background-repeat: repeat;
+background-position: center top;
+
+}
+
+#timeline .timeline-top-bottom, #timeline .timeline-top-bottom {
+height: 80px;
+}
+
+#timeline h2 {
+font-size: 50px;
+line-height: 1.5em;
+width: 40%;
+margin-left:10%;
+}
+
+
+#timeline h2 span {
+border-bottom-width: 6px;
+border-bottom-style: solid;
+padding-bottom: 0.1em;
+}
+
+
+#timeline-2010 {
+height: 1200px;
+color: #fdb23d;
+color: #fff;
+margin-top: 25px;
+}
+
+
+
+#milestone-01 {
+margin-left: 50%;
+color: #009ee7;
+}
+
+#milestone-02 {
+color: #9c48d2;
+margin-left: 10%;
+}
+
+#milestone-03 {
+margin-left: 50%;
+color: #252525;
+}
+
+#timeline .milestone-left {
+text-align: right;
+width: 360px;
+margin-top:100px;
+}
+
+#milestone-01 span,#milestone-02 span,#milestone-03 span
+{
+	background: #252524;
+	color:#FFF;
+	padding:0.1em 0.3em;
+}
+
+#milestone-01 span
+{
+	background:#009ee7;
+}
+
+#milestone-02 span
+{
+	background:#9c48d2;
+}
+
+#milestone-01, #milestone-02, #milestone-03 {
+border-bottom-width: 6px;
+border-bottom-style: solid;
+padding-bottom: 0.1em;
+}
+
+
+#timeline .milestone-right {
+text-align: left;
+width: 360px;
+margin-top:100px;
+}
+#timeline h3 {
+color: white;
+font-size: 1em;
+font-weight: 700;
+}
+
+#timeline h3.popped {
+top: 65px;
+height: 75px;
+width: 75px;
+margin-left: -38px;
+padding-top: 29px;
+text-indent: 0;
+}
+
+#timeline h4 {
+color: white;
+font-size: 14px;
+padding: 20px 0 10px;
+}
+
+#timeline p {
+font-size: 2.3em;
+line-height: 1.2em;
+font-weight:700;
+}
+
+.recycle-img
+{
+	float:right;
+}
+/* */
+
+ul#slides-home {
+	list-style-type: none;
+	padding: 0;
+	height: 100%;
+}
+
+ul#slides-home>li.slide-home-04>.overlay {
+position: absolute;
+top: 0;
+height: 100%;
+width: 100%;
+background: rgba(252,157,247,0.4);
+}
+
+#slides-home h2{padding:1.3em 10px 10px;font-weight:500;font-size:75px;line-height:1.4em;margin-top:-0.4em}
+#slides-home h2 span
+{
+	padding-bottom:0.1em;
+	
+}
+#slides-home h5{margin:15px 0;margin-left:48px;width:100%;padding:1.3em 15px 15px;text-transform:uppercase;font-weight:700 !important;font-size:2em;color:#fc9df7;}
+
+
+
+ul#slides-home{list-style-type:none;padding:0;height:100%}ul#slides-home>li{position:absolute;top:0;height:100%;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-top:180px;background-color:#252525;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+
+ul#slides-home>li.slide-home-04>.overlay{position:absolute;top:0;height:100%;width:100%;background:#7B5579;}
+
+ul#slides-home>li.slide-home-01 h2 span{color:#ffffff;border-bottom:6px solid #9c48d2}
+ul#slides-home>li.slide-home-02 h2 span{color:#ffffff;border-bottom:6px solid #00e7b4}
+ul#slides-home>li.slide-home-03 h2 span{color:#ffffff;border-bottom:6px solid #009ee7}
+ul#slides-home>li.slide-home-04 h2 span{color:#ffffff;border-bottom:6px solid #fdb23d;}
+
+ul#slides-home>li.slide-home-04 h2
+{
+	margin-left:5%;
+}
+#history h3 {
+padding: 100px 10px;
+font-size: 40px;
+text-align: justify;
+line-height: 2em;
+}
+
+#history h3 span {
+border-bottom: 6px solid #fc9df7;
+padding: 0.33em;
+line-height: 2.1em;
+}
+
+#slides-home h3 span
+{
+	border-bottom:6px solid #fdb23d;
+}
+
+#history h3:first-child {
+padding: 200px 10px 100px 10px;
+}
+
+#history {
+	background-image: url('img/marusha.png');
+
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#history>.overlay {
+	width: 100%;
+	height:750px;
+	background: #AF5CAB;opacity:0.8;
+	position: absolute;
+	top: 0;
+}
+
+.section {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+position: relative;
+background-color: #252525;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+/**/
+
+
+
+
+
+
+#building {
+background-color: #AF5CAB;
+}
+
+#building>div {
+width: 960px;
+margin: 0 auto;
+}
+
+#slides-building {
+display: none;
+padding: 120px 0 0 0;
+}
+
+#building img
+{
+	
+	
+}
+
+#building .building-top-bottom, #building .building-top-bottom {
+height: 80px;
+}
+
+
+#timeline p {
+font-size: 1.2em;
+line-height: 1.8em;
+font-weight:700;
+width:560px;
+
+margin-bottom:50px;
+	border-bottom: 6px solid #fc9df7;
+padding: 0.53em;
+}
+
+#timeline .date
+{
+	margin-bottom:20px;
+	font-size: 1.2em;
+	
+}
+
+#timeline .date span
+{
+	color:#fc9df7;
+	padding:0.3em;
+	font-weight:700;
+	padding-left:0.53em;
+}
+
+#timeline .memo
+{
+	margin-bottom:100px;
+}
+
+
+/**************/
+
+#timeline-2010
+{
+	position: absolute;
+left: 10px;
+top: 340px;
+}
